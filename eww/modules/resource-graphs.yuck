@@ -1,0 +1,45 @@
+(defpoll cpu-raw :interval "60s" "scripts/cpu")
+(defpoll ram-raw :interval "60s" "scripts/ram")
+(defpoll battery-raw :interval "60s" "cat /sys/class/power_supply/BAT0/capacity")
+    
+
+(defwidget resource-graphs []
+    (box :class "side-dash-content-container"
+         :orientation "h"
+         :width 350
+         (resource-graph
+            :text "battery: "
+            :value battery-raw)
+         (resource-graph
+            :text "RAM: "
+            :value ram-raw)
+         (resource-graph
+            :text "CPU: "
+            :value cpu-raw  )
+
+    )       
+)
+
+(defwidget resource-graph [text ?value]
+    (box 
+        :orientation "v"
+        :space-evenly false
+        :valign "center"
+        :halign "center"
+        (circular-progress 
+            :value value
+            :thickness 28
+            :clockwise true
+            :start-at 75)
+        (resource-graph-text
+            :text text
+            :value value))
+    )
+
+(defwidget resource-graph-text [text value]
+    (box
+        :orientation "h"
+        :space-evenly false
+    text
+    value
+"%"))

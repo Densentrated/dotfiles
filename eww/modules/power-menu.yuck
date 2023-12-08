@@ -1,0 +1,19 @@
+(defwidget power-menu []
+    (box :class "power-menu"
+         :orientation "v"
+         :width 80
+         :halign "center"
+        (button :onclick "shutdown now"
+                :class "power-buttons"
+                "󰐥")
+        (button :onclick "systemctl reboot" 
+                :class "power-buttons"
+                "󰜉")
+        (button :onclick "systemctl suspend" 
+                :class "power-buttons"
+                "󰤄")
+        (button :onclick "notify-send 'lockout pressed'"
+                :class "power-buttons"
+                "")
+    )       
+)

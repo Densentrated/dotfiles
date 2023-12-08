@@ -1,0 +1,27 @@
+;; pull a new quote every hour
+(defpoll apatheia_quote :interval "30m" "python ~/.config/eww/scripts/quote_retriever.py | head -1")
+(defpoll apatheia_author :interval "30m" "python ~/.config/eww/scripts/quote_retriever.py | tail -1")
+
+;; Apatheia Quote
+(defwidget quote []
+  (box
+    :class "apatheia-container"
+    :orientation "v"
+    :width 430
+    :vexpand false
+    :hexpand false
+    :space-evenly false
+    (label
+      :class "apatheia-content"
+      :hexpand false
+      :halign "start"
+      :text apatheia_quote
+      
+    )
+    (label
+      :hexpand "false"
+      :class "apatheia-author"
+      :halign "start"
+      :hexpand false
+      :text apatheia_author
+    )))

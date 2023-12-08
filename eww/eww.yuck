@@ -1,0 +1,109 @@
+;; includes
+;;(include "modules/quote.yuck")
+;;(include "modules/music.yuck")
+(include "modules/power-menu.yuck")
+(include "modules/resource-graphs.yuck")
+(include "modules/audio-menu.yuck")
+
+;; variables
+;; Variables
+(defpoll clock_time :interval "5s" "date '+\%H\%M'")
+(defpoll clock_date :interval "1h" "date '+%b %d, %Y'")
+(defpoll calendar_day :interval "2h" "date '+%d'")
+(defpoll calendar_year :interval "2h" "date '+%Y'")
+(defpoll volume_percent :interval "1s"  "scripts/sbvol --get")
+; (defpoll mic_percent :interval "3s" "amixer -D pulse sget Capture | grep 'Left:' | awk -F'[][]' '{ print $2 }' | tr -d '%' | head -n 1")
+(defpoll mic_percent :interval "3s" "amixer -D pulse sget Capture | grep 'Mono:' | awk -F'[][]' '{ print $2 }' | tr -d '%' | head -n 1")
+(defpoll brightness_percent :interval "5s" "light")
+; (defpoll COL_WLAN :interval "1m" "scripts/wifi --COL")
+; (defpoll ESSID_WLAN :interval "1m" "scripts/wifi --ESSID")
+(defpoll ESSID_WLAN :interval "100s" "nmcli -t -f active,ssid dev wifi | grep '^yes' | cut -d: -f2")
+; (defpoll WLAN_ICON :interval "1m" "scripts/wifi --ICON")
+(defpoll WLAN_ICON :interval "100s" `nmcli -t -f SIGNAL,ACTIVE device wifi \
+    | awk -F':' '{if($2=="yes")print$1}'`)
+(deflisten workspace "scripts/workspace")
+(deflisten appname "scripts/appname")
+
+; https://github.com/elkowar/eww/issues/382#issuecomment-1281693594
+
+(defvar eww "eww -c $HOME/.config/hypr/themes/apatheia/eww/bar")
+
+(defvar vol_reveal false)
+(defvar br_reveal false)
+(defvar control_reveal false)
+(defvar wifi_rev false)
+(defvar time_rev false)
+
+;;windows
+(defwindow side-dash
+    :monitor 0
+    :geometry (geometry :x "8"
+                        :y "8"
+                        :width "430"
+                        :height "1018px"
+                        :anchor "top left")
+    :limit-width 430
+    :limit-height 1018
+    :exclusive false
+    :focusable false
+    :stacking "fg"
+    :namespace "side-dash"
+(box
+    (side-dash-content)))
+
+;; widgets
+;; widget "groups"
+(defwidget side-dash-content []
+    (box :class "side-dash-content-window"
+         :orientation "v"
+         :space-evenly false
+         :width 430
+        (quote)
+        (music)
+        (task-list)
+        (settings-menu-container)
+        (system-menu-container)
+    )       
+)
+
+(defwidget quote []
+    (box :class "quote-container"
+         :orientation "v"
+        "quote")
+)
+
+(defwidget system-menu-container []
+    (box :class "system-menu-container"
+         :orientation "h"
+         :space-evenly false
+        (power-menu)
+        (resource-graphs)
+        ))
+
+(defwidget settings-menu-container []
+    (box :class "settings-menu-container"
+         :orientation "h"
+         (audio-menu)
+         (network-menu)
+        ))
+
+
+
+;; "individual" widgets (bordered boxes)
+
+(defwidget task-list []
+    (box :class "side-dash-content-container"
+    "task list"))
+
+(defwidget music []
+    (box :class "side-dash-content-container"
+         :orientation "v"
+        "music"
+    )       
+)
+
+(defwidget network-menu []
+    (box :class "side-dash-content-container"
+         :orientation "v"
+        "network menu"
+    )      )

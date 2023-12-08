@@ -1,0 +1,11 @@
+(defwidget audio-menu []
+    (box :class "side-dash-content-container"
+         :orientation "v"
+         :spacing "8"
+		(box :class "progress-line" :orientation "h" :spacing 20 :space-evenly "false" :vexpand "false" :hexpand "false" 
+			(scale :min 0 :max 100 :value 50 :active "true")
+        )
+        (label :text "Audio Menu")
+    )
+)
+

@@ -1,0 +1,15 @@
+.power-menu {
+    border: 2px solid;
+    border-color: #8EC5FC;
+    border-radius: 12px;
+}
+
+.power-buttons {
+    color: #FA8BFF;
+    font-size: 34;
+    font-weight: bold;
+    &:hover {
+        transition: 200ms linear background-color, border-radius;
+        background-color: rgba(rgb(124, 124, 124), 0.6);
+    }  
+}
