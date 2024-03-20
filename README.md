@@ -1,5 +1,7 @@
 # My personal collection of hyprland dotfiles
+this version was created in 2024, due to the fact that I had to completely reset my laptop.
 ## Screenshots  
+- ![Color Pallete Image](image-5.png)
 - ![Image of Top Bar](image-1.png)
 - ![Image of Desktop (Blank)](image-2.png)
 - ![Image of Terminal](image-3.png)
