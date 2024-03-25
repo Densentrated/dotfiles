@@ -27,7 +27,8 @@ abbr -a -g ips 'ip link show'																					# Get network interfaces infor
 abbr -a -g wloff 'rfkill block wlan'																			# Block wlan, killing wifi connection
 abbr -a -g wlon 'rfkill unblock wlan'																		# Unblock wlan, start wifi connection
 abbr -a -g ff 'firefox'		
-
+abbr -a -g CHROME_EXECUTABLE "google-chrome-stable"
+abbr -a -g google-crhome "google-chrome-stable"
 set -g fish_greeting
 
 neofetch --ascii ~/.config/neofetch/yorha.txt --ascii_colors 1
