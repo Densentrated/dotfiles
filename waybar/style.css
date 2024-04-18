@@ -146,7 +146,7 @@ label:focus {
 #network.disconnected {
 
 
-    color: black;
+    color: #a7d3ff;
 }
 
 #pulseaudio {
@@ -158,7 +158,7 @@ label:focus {
 #pulseaudio.muted {
 
 
-    color: black;
+    color: #a7d3ff;
 }
 
 #custom-media {
