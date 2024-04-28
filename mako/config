@@ -1,0 +1,37 @@
+font="Fira Code Nerd Font" 15
+format=<b>%a 󰛂 </b> %s\n%b
+anchor=bottom-right
+background-color=#0b1c3d
+border-color=#f01da2
+text-color=#99c0ff
+
+icons=1
+icon-location=right
+markup=1
+actions=1
+width=440
+height=100
+sort=-time
+invisible=0
+group-by=none
+layer=overlay
+border-size=4
+max-visible=10
+margin=2,10,10,2
+padding=2,4
+outer-margin=16
+max-icon-size=150
+border-radius=6
+ignore-timeout=0
+text-alignment=center
+default-timeout=300000
+on-button-left=dismiss-all
+
+[urgency=normal]
+border-color=#d70dff
+
+[urgency=high]
+border-color=#321df0
+
+[app-name=lightcord]
+border-color=#88c0d0
