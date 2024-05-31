@@ -22,7 +22,7 @@ chosen="$(echo -e "$options" | $rofi_cmd -p "Uptime <=> $uptime" -dmenu)"
 # Command for specific choices
 case $chosen in
 "$Shutdown")
-	systemctl poweroff
+	shutdown now
 ;;
 "$Reboot")
 	systemctl reboot
