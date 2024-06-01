@@ -1,0 +1,5 @@
+2024-05-31 20:58:29.715 [info] Extension host with pid 2581 started
+2024-05-31 20:58:29.715 [info] Skipping acquiring lock for /home/dense/.config/Code/User/workspaceStorage/edfe0ff4c3b3c9e0ab1fb869417880e0.
+2024-05-31 20:58:29.770 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-31 20:58:29.812 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-31 20:58:29.814 [info] Extension host with pid 2581 exiting with code 0

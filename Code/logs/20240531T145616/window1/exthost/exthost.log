@@ -1,0 +1,11 @@
+2024-05-31 14:56:17.368 [info] Extension host with pid 23501 started
+2024-05-31 14:56:17.368 [info] Skipping acquiring lock for /home/dense/.config/Code/User/workspaceStorage/edfe0ff4c3b3c9e0ab1fb869417880e0.
+2024-05-31 14:56:17.436 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-31 14:56:17.507 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-31 14:56:17.548 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-31 14:56:17.569 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-31 14:56:17.607 [info] Eager extensions activated
+2024-05-31 14:56:17.648 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-31 14:56:17.651 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-31 15:00:24.377 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-31 15:00:24.390 [info] Extension host with pid 23501 exiting with code 0
