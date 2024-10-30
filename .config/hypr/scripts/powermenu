@@ -28,7 +28,7 @@ case $chosen in
 	systemctl reboot
 ;;
 "$Suspend")
-	systemctl suspend
+	systemctl suspend && hyprlock
 ;;
 "$Lock")
   hyprlock
