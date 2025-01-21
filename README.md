@@ -8,9 +8,20 @@ this version was created in 2024, cuz I switched to a framework
 - fish shell
 - kitty terminal
 - neofetch
+- spotify / spicietify
+- hyprland
+- hyprpaper
+- hyprctl
+- waybar
+- starship prompt
+- mako notification daemon
+- rofi prompt / powermenu
+- zsh shell
 
 ## Directions:
-- install AUR manager, 
-- Install Following Packages
-  - To Be listed...
-- move all files into home folder
+- install yay using 
+```
+sudo pacman -S yay
+```
+
+download the source files, and run the installation script
