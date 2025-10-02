@@ -1,0 +1,81 @@
+import Quickshell
+import Quickshell.Services.SystemTray
+import QtQuick
+import QtQuick.Layouts
+
+Rectangle {
+    id: traySection
+    
+    property var trayItems
+    property bool trayExpanded: true
+    
+    color: "#2c000000"
+    height: traySection.trayExpanded ? 220 : 46
+    width: 40
+    radius: 20
+    Layout.alignment: Qt.AlignHCenter
+    
+    ColumnLayout {
+        anchors.fill: parent
+        anchors.margins: 4
+        spacing: 2
+
+        // Tray content (spacer + icons)
+        ColumnLayout {
+            id: trayContent
+            visible: traySection.trayExpanded
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            spacing: 2
+            
+            // System tray items
+            Repeater {
+                id: trayRepeater
+                model: traySection.trayItems
+                
+                delegate: Rectangle {
+                    color: "transparent"
+                    Layout.preferredWidth: 32
+                    Layout.preferredHeight: 30
+                    Layout.alignment: Qt.AlignHCenter
+                    
+                    Image {
+                        anchors.centerIn: parent
+                        source: modelData.icon
+                        width: 24
+                        height: 24
+                        smooth: true
+                    }
+                }
+            }
+
+            // Spacer to push items to top
+            Item {
+                Layout.fillHeight: true
+            }
+        }
+
+     // button to hide tray
+        Rectangle {
+            color: "transparent"
+            border.color: "transparent"
+            Layout.preferredWidth: 32
+            Layout.preferredHeight: 20
+            Layout.alignment: Qt.AlignHCenter
+            
+            Text {
+                anchors.centerIn: parent
+                text: traySection.trayExpanded ? "" : ""
+                color: "white"
+                font.pixelSize: 14
+                font.bold: true
+            }
+            
+            MouseArea {
+                anchors.fill: parent
+                hoverEnabled: true
+                onClicked: traySection.trayExpanded = !traySection.trayExpanded
+            }
+        }
+    }
+}
