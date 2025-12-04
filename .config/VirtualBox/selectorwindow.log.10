@@ -1,0 +1,25 @@
+00:00:00.465560 VirtualBox GUI VM Selector Window 7.2.4 r170995 linux.amd64 (Oct 22 2025 16:59:14) release log
+00:00:00.465562 Log opened 2025-11-02T04:27:56.480127000Z
+00:00:00.465563 Build Type: release
+00:00:00.465566 OS Product: Linux
+00:00:00.465567 OS Release: 6.17.5-arch1-1
+00:00:00.465568 OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 23 Oct 2025 18:49:03 +0000
+00:00:00.465604 DMI Product Name: Laptop 13 (AMD Ryzen 7040Series)
+00:00:00.465617 DMI Product Version: A5
+00:00:00.465624 Firmware type: UEFI
+00:00:00.465818 Secure Boot: Disabled
+00:00:00.465872 Host RAM: 27862MB (27.2GB) total, 19683MB (19.2GB) available
+00:00:00.465874 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.465875 Process ID: 704581
+00:00:00.465875 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.465904 Qt version: 6.10.0
+00:00:00.467924 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.488391 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.254528 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 914x1256
+00:00:01.269307 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:32.835388 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:33.426330 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:40.312291 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:55.116355 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:16:21.094799 GUI: UICommon: Handling aboutToQuit request..
+01:16:21.094841 Log rotated - Log started 2025-11-02T04:27:56.480127000Z

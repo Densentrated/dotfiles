@@ -1,3 +1,0 @@
-2024-05-31 14:56:17.215 [info] Started local extension host with pid 23501.
-2024-05-31 14:56:19.884 [info] [perf] Render performance baseline is 17ms
-2024-05-31 14:56:22.681 [warning] [perf] Renderer reported VERY LONG TASK (280ms), starting profiling session '8c282e6a-9f13-45e4-a1d1-1219858f9df5'

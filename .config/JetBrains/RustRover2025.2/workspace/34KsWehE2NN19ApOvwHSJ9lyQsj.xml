@@ -1,0 +1,818 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="100-exercises-to-learn-rust" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="33kqh2xrmuhx5" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/README.md" file-id="294" managing-fs="1760973580525">
+          <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]" selected="true">
+            <state split_layout="SHOW_PREVIEW" is_vertical_split="false">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"README.md","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,96,10,24,105,99,111,110,115,47,77,97,114,107,100,111,119,110,80,108,117,103,105,110,46,115,118,103,18,24,105,99,111,110,115,47,101,120,112,117,105,47,109,97,114,107,100,111,119,110,46,115,118,103,26,29,111,114,103,46,105,110,116,101,108,108,105,106,46,112,108,117,103,105,110,115,46,109,97,114,107,100,111,119,110,40,-33,-55,-17,-63,-7,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/exercises/01_intro/00_welcome/src/lib.rs" file-id="519" managing-fs="1760973580525">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="418">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"01_intro/00_welcome/…/lib.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-110,1,10,-113,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,101,110,115,101,110,116,114,97,116,101,100,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,84,111,111,108,98,111,120,47,97,112,112,115,47,114,117,115,116,114,111,118,101,114,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/exercises/01_intro/01_syntax/src/lib.rs" file-id="513" managing-fs="1760973580525">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="110">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"01_intro/01_syntax/…/lib.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-110,1,10,-113,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,101,110,115,101,110,116,114,97,116,101,100,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,84,111,111,108,98,111,120,47,97,112,112,115,47,114,117,115,116,114,111,118,101,114,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/src/lib.rs" file-id="1013" managing-fs="1760973580525">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="44">
+              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"02_basic_calculator/00_intro/…/lib.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-110,1,10,-113,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,101,110,115,101,110,116,114,97,116,101,100,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,84,111,111,108,98,111,120,47,97,112,112,115,47,114,117,115,116,114,111,118,101,114,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/src/lib.rs" file-id="1025" managing-fs="1760973580525">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="44">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"02_basic_calculator/01_integers/…/lib.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-110,1,10,-113,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,101,110,115,101,110,116,114,97,116,101,100,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,84,111,111,108,98,111,120,47,97,112,112,115,47,114,117,115,116,114,111,118,101,114,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/src/lib.rs" file-id="1031" managing-fs="1760973580525">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="220">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"02_basic_calculator/02_variables/…/lib.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-110,1,10,-113,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,101,110,115,101,110,116,114,97,116,101,100,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,84,111,111,108,98,111,120,47,97,112,112,115,47,114,117,115,116,114,111,118,101,114,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/src/lib.rs" file-id="1022" managing-fs="1760973580525">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="572">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"02_basic_calculator/03_if_else/…/lib.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-110,1,10,-113,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,101,110,115,101,110,116,114,97,116,101,100,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,84,111,111,108,98,111,120,47,97,112,112,115,47,114,117,115,116,114,111,118,101,114,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/src/lib.rs" file-id="1019" managing-fs="1760973580525">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="88">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"02_basic_calculator/04_panics/…/lib.rs","foregroundColor":-2104859,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-110,1,10,-113,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,101,110,115,101,110,116,114,97,116,101,100,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,84,111,111,108,98,111,120,47,97,112,112,115,47,114,117,115,116,114,111,118,101,114,47,112,108,117,103,105,110,115,47,105,110,116,101,108,108,105,106,45,114,117,115,116,47,108,105,98,47,105,110,116,101,108,108,105,106,45,114,117,115,116,46,106,97,114,33,47,105,99,111,110,115,47,101,120,112,117,105,47,114,117,115,116,70,105,108,101,46,115,118,103]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "Rust": {
+      "usageCount": 14,
+      "lastUsed": 1760985016635
+    },
+    "Markdown": {
+      "usageCount": 2,
+      "lastUsed": 1760985017766
+    },
+    "WebPreview": {
+      "usageCount": 1,
+      "lastUsed": 1760973633179
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/01_intro/00_welcome/src/lib.rs&quot;,
+    &quot;/home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/01_intro/01_syntax/src/lib.rs&quot;,
+    &quot;/home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/00_intro/src/lib.rs&quot;,
+    &quot;/home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/01_integers/src/lib.rs&quot;,
+    &quot;/home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/02_variables/src/lib.rs&quot;,
+    &quot;/home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/04_panics/src/lib.rs&quot;,
+    &quot;/home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/03_if_else/src/lib.rs&quot;
+  ]
+}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Markdown">
+      <summary usageCount="2" lastUsage="1760985017766" />
+    </language>
+    <language id="Rust">
+      <summary usageCount="14" lastUsage="1760985016635" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/01_intro}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/00_intro}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/00_intro}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/00_intro/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/01_integers}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/01_integers}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/01_integers/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/02_variables}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/02_variables}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/02_variables/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/03_if_else}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/03_if_else}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/03_if_else/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/04_panics}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/04_panics}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/04_panics/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="100-exercises-to-learn-rust" />
+            <item name="100-exercises-to-learn-rust" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="100-exercises-to-learn-rust" />
+              <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.github" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".github" />
+                <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/.github}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/book" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="book" />
+                <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/book}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/exercises" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="exercises" />
+                <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/exercises/01_intro" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="01_intro" />
+                  <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/01_intro}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/01_intro/00_welcome" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="00_welcome" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/01_intro/00_welcome}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/01_intro/01_syntax" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="01_syntax" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/01_intro/01_syntax}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="02_basic_calculator" />
+                  <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/00_intro" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="00_intro" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/00_intro}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/src" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                      <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/00_intro/src}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/src/lib.rs" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="true" text="lib.rs" />
+                        <item name="lib.rs" type="f3e56494:RsPsiFileNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/Cargo.toml" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="Cargo.toml" />
+                      <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="01_integers" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/01_integers}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/src" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                      <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/01_integers/src}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/src/lib.rs" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="true" text="lib.rs" />
+                        <item name="lib.rs" type="f3e56494:RsPsiFileNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/Cargo.toml" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="Cargo.toml" />
+                      <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="02_variables" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/02_variables}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/src" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                      <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/02_variables/src}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/src/lib.rs" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="true" text="lib.rs" />
+                        <item name="lib.rs" type="f3e56494:RsPsiFileNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/Cargo.toml" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="Cargo.toml" />
+                      <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="03_if_else" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/03_if_else}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/src" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                      <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/03_if_else/src}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/src/lib.rs" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="true" text="lib.rs" />
+                        <item name="lib.rs" type="f3e56494:RsPsiFileNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/Cargo.toml" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="Cargo.toml" />
+                      <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="04_panics" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/04_panics}" type="462c0819:PsiDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/src" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                      <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/04_panics/src}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/src/lib.rs" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="true" text="lib.rs" />
+                        <item name="lib.rs" type="f3e56494:RsPsiFileNode" />
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/Cargo.toml" />
+                        </map>
+                      </attributes>
+                      <data isLeaf="true" text="Cargo.toml" />
+                      <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/05_factorial" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="05_factorial" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/05_factorial}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/06_while" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="06_while" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/06_while}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/07_for" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="07_for" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/07_for}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/08_overflow" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="08_overflow" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/08_overflow}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/09_saturating" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="09_saturating" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/09_saturating}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/exercises/02_basic_calculator/10_as_casting" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="10_as_casting" />
+                    <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/02_basic_calculator/10_as_casting}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/exercises/03_ticket_v1" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="03_ticket_v1" />
+                  <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/03_ticket_v1}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/exercises/04_traits" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="04_traits" />
+                  <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/04_traits}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/exercises/05_ticket_v2" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="05_ticket_v2" />
+                  <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/05_ticket_v2}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/exercises/06_ticket_management" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="06_ticket_management" />
+                  <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/06_ticket_management}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/exercises/07_threads" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="07_threads" />
+                  <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/07_threads}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/exercises/08_futures" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="08_futures" />
+                  <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/exercises/08_futures}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/exercises/progress.db" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="progress.db" />
+                  <item name="progress.db" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/helpers" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="helpers" />
+                <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/helpers}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/site" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="site" />
+                <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/site}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/target" />
+                  </map>
+                </attributes>
+                <data iconPath="modules/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="target" />
+                <item name="dir{file:///home/densentrated/Projects/Gitea/100-exercises-to-learn-rust/target}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="vcs/ignore_file.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.wr.toml" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/newui/toml.svg" iconPlugin="org.toml.lang" isLeaf="true" text=".wr.toml" />
+                <item name=".wr.toml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Cargo.lock" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="Cargo.lock" />
+                <item name="Cargo.lock" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/Cargo.toml" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text="Cargo.toml" />
+                <item name="Cargo.toml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/dprint.json" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="dprint.json" />
+                <item name="dprint.json" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/README.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/markdown.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                <item name="README.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="nodes/ppLib.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="scope/scratches.svg" iconPlugin="com.intellij" isLeaf="true" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="937000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16413043" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Build" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Cargo" order="5" weight="0.2" />
+      <window_info anchor="right" id="RustCargo" order="6" weight="0.09963769" />
+      <window_info anchor="right" id="ElectroJunToolWindow" order="7" weight="0.33007246" />
+      <unified_weights left="0.16413043" right="0.33007246" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>ElectroJunToolWindow</value>
+      <value>RustCargo</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="FileChooserDialogImpl" timestamp="1760985037860">
+      <screen x="0" y="0" width="1440" height="960" />
+    </state>
+    <state x="0" y="0" key="FileChooserDialogImpl/0.0.1440.960/1920.0.2880.288/1920.0.1920.1080@0.0.1440.960" timestamp="1760985037860" />
+    <state x="353" y="193" key="search.everywhere.popup" timestamp="1760973994590">
+      <screen x="0" y="0" width="1440" height="960" />
+    </state>
+    <state x="353" y="193" key="search.everywhere.popup/0.0.1440.960/1920.0.2880.288/1920.0.1920.1080@0.0.1440.960" timestamp="1760973994590" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/exercises/02_basic_calculator/01_integers/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/02_basic_calculator/04_panics/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/01_intro/00_welcome/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/02_basic_calculator/00_intro/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/01_intro/01_syntax/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/02_basic_calculator/02_variables/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/02_basic_calculator/03_if_else/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SHOW_PREVIEW" is_vertical_split="false">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

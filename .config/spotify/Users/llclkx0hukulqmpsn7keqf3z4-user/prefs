@@ -1,3 +1,4 @@
+connect.mdns_devices="[]"
+connect.dial_devices="[]"
 audio.play_bitrate_non_metered_migrated=true
-connect.dial_devices="[{\"address\":\"10.2.8.222\",\"app_state\":\"MISSING\",\"created_timestamp\":1715110164,\"device_id\":\"d12da77f-1755-4868-84d8-e998d1034832\",\"dial_location_url\":\"http://10.2.8.222:1635/\",\"display_name\":\"[LG] webOS TV UQ8000AUB\",\"last_seen\":1715111703,\"manufacturer\":\"LG\",\"model_name\":\"75UQ8000AUB\",\"product_cap\":\"\",\"public_ip\":\"50.233.149.18\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"805b659ce3a4\",\"port\":9,\"retries\":2400}}]"
 app.browser.zoom-level=150

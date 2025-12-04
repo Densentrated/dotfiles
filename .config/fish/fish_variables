@@ -1,7 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export ANDROID_HOME:/home/dense/Android/Sdk
-SETUVAR --export ANDROID_SDK_ROOT:/home/dense/Android/Sdk
+SETUVAR --export ANDROID_HOME:/home/densentrated/Android/Sdk
+SETUVAR --export ANDROID_SDK_ROOT:/home/densentrated/Android/Sdk
 SETUVAR --export CHROME_EXECUTABLE:/usr/bin/google\x2dchrome\x2dstable
 SETUVAR --export --path PATH:/opt/android\x2dsdk/platform\x2dtools\x1e/opt/android\x2dsdk/emulator\x1e/opt/android\x2dsdk/tools\x1e/opt/android\x2dsdk/tools/bin\x1e/home/dense/\x2elocal/bin\x1e/home/dense/\x2elocal/bin\x1e/home/dense/Android/Sdk/platform\x2dtools\x1e/home/dense/Android/Sdk/emulator\x1eUnknown\x20command\x1e\x20\x22bin\x22\x1e\x2e\x1eTo\x20see\x20a\x20list\x20of\x20supported\x20npm\x20commands\x2c\x20run\x1e\x20\x20npm\x20help\x1e/opt/matlab/bin\x1e\x2e\x1e\x2e\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/opt/android\x2dsdk/tools\x1e/opt/android\x2dsdk/tools/bin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl
 SETUVAR --export SSH_AGENT_PID:2238
@@ -36,4 +36,4 @@ SETUVAR fish_pager_color_description:yellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/dense/\x2elocal/bin\x1e/home/dense/Android/Sdk/platform\x2dtools\x1e/home/dense/Android/Sdk/emulator\x1eUnknown\x20command\x1e\x20\x22bin\x22\x1e\x1eTo\x20see\x20a\x20list\x20of\x20supported\x20npm\x20commands\x2c\x20run\x1e\x20\x20npm\x20help\x1e/opt/matlab/bin
+SETUVAR fish_user_paths:/home/densentrated/\x2elocal/bin\x1e/home/dense/\x2elocal/bin\x1e/home/dense/Android/Sdk/platform\x2dtools\x1e/home/dense/Android/Sdk/emulator\x1eUnknown\x20command\x1e\x20\x22bin\x22\x1e\x1eTo\x20see\x20a\x20list\x20of\x20supported\x20npm\x20commands\x2c\x20run\x1e\x20\x20npm\x20help\x1e/opt/matlab/bin

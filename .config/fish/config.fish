@@ -34,15 +34,14 @@ set -g fish_greeting
 neofetch --ascii ~/.config/neofetch/yorha.txt --ascii_colors 1
 fish_add_path /opt/matlab/bin
 
-
-# Set environment variables for Android SDK and tools
-set --export ANDROID_HOME $HOME/Android/Sdk
-set --export ANDROID_SDK_ROOT $HOME/Android/Sdk
-
-# Add Android SDK directories to PATH (ensures no duplicates are added)
-fish_add_path $ANDROID_HOME/platform-tools $ANDROID_HOME/emulator $ANDROID_HOME/tools $ANDROID_HOME/tools/bin
-
 # Add ~/.local/bin to PATH (ensures no duplicates are added)
 fish_add_path $HOME/.local/bin
 
-alias nervenv="source $HOME/Academic_Works/NER/ner-venv/bin/activate.fish"
+# Created by `pipx` on 2025-10-06 01:54:03
+set PATH $PATH /home/densentrated/.local/bin
+
+# Created for NERVENV on 2025-10-9
+alias nervenv="source /home/densentrated/Academic_Works/NER/ner-venv/bin/activate.fish"
+
+# thefuck alias
+thefuck --alias | source

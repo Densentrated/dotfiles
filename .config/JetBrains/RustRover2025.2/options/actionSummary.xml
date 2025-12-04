@@ -1,0 +1,79 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="1" l="1760980388637" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="151" l="1760985277669" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="1" l="1760974161865" />
+    </e>
+    <e n="EditorDown">
+      <i c="8" l="1760974366123" />
+    </e>
+    <e n="EditorDuplicate">
+      <i c="1" l="1760980387432" />
+    </e>
+    <e n="EditorEnter">
+      <i c="14" l="1760985145876" />
+    </e>
+    <e n="EditorEscape">
+      <i c="1" l="1760974165036" />
+    </e>
+    <e n="EditorLeft">
+      <i c="11" l="1760985271394" />
+    </e>
+    <e n="EditorRight">
+      <i c="20" l="1760974364840" />
+    </e>
+    <e n="EditorTab">
+      <i c="3" l="1760985146167" />
+    </e>
+    <e n="EditorUp">
+      <i c="9" l="1760985145024" />
+    </e>
+    <e n="FindNext">
+      <i c="1" l="1760973990513" />
+    </e>
+    <e n="GotoClass">
+      <i c="1" l="1760973993764" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="3" l="1760974451669" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1760985024053" />
+    </e>
+    <e n="Register">
+      <i c="1" l="1760973643033" />
+    </e>
+    <e n="SaveAll">
+      <i c="21" l="1760985279175" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1760973609459" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
+      <i c="1" l="1760973991935" />
+    </e>
+    <e n="com.intellij.ide.startup.importSettings.chooser.productChooser.SkipImportAction">
+      <i c="1" l="1760973603177" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1760973848033" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="1" l="1760973994586" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="4" l="1760985022056" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="2" l="1760985022653" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="2" l="1760985269795" />
+    </e>
+  </component>
+</application>
