@@ -1,0 +1,8 @@
+width=800
+height=400
+mode=drun
+show=drun
+prompt=Applications
+allow_images=false
+insensitive=true
+term=kitty

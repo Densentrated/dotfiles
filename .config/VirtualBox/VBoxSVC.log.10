@@ -1,0 +1,376 @@
+00:00:00.000997 main     VirtualBox XPCOM Server 7.2.2 r170484 linux.amd64 (Sep 24 2025 20:15:03) release log
+00:00:00.001000 main     Log opened 2025-10-13T22:15:09.078133000Z
+00:00:00.001002 main     Build Type: release
+00:00:00.001006 main     OS Product: Linux
+00:00:00.001008 main     OS Release: 6.17.1-arch1-1
+00:00:00.001010 main     OS Version: #1 SMP PREEMPT_DYNAMIC Mon, 06 Oct 2025 18:48:29 +0000
+00:00:00.001038 main     DMI Product Name: Laptop 13 (AMD Ryzen 7040Series)
+00:00:00.001048 main     DMI Product Version: A5
+00:00:00.001063 main     Firmware type: UEFI
+00:00:00.001221 main     Secure Boot: Disabled
+00:00:00.001262 main     Host RAM: 27862MB (27.2GB) total, 18903MB (18.4GB) available
+00:00:00.001265 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001268 main     Process ID: 1085404
+00:00:00.001269 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.009365 main     IPC socket path: /tmp/.vbox-densentrated-ipc/ipcd
+00:00:00.024164 DCon01   VirtualBox: object creation starts
+00:00:00.025448 DCon01   Home directory: '/home/densentrated/.config/VirtualBox'
+00:00:00.026188 DCon01   Loading settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.031772 DCon01   Successfully initialised host USB using sysfs
+00:00:00.047046 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.049425 DCon01   HostDnsMonitor: initializing
+00:00:00.049612 DCon01   NAT: resolv.conf: nameserver 155.33.2.1
+00:00:00.049620 DCon01   NAT: resolv.conf: nameserver 155.33.2.2
+00:00:00.049635 DCon01   HostDnsMonitor: updating information
+00:00:00.049645 DCon01   HostDnsMonitor: old information
+00:00:00.049649 DCon01     no server entries
+00:00:00.049654 DCon01     no domain set
+00:00:00.049658 DCon01     no search string entries
+00:00:00.049662 DCon01   HostDnsMonitor: new information
+00:00:00.049667 DCon01     server 1: 155.33.2.1
+00:00:00.049672 DCon01     server 2: 155.33.2.2
+00:00:00.049675 DCon01     domain: neu.edu
+00:00:00.049680 DCon01     search string 1: neu.edu
+00:00:00.055098 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.055760 DCon01   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={925084b0-625f-422f-a67d-0ede1880a56c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.059015 DCon01   Platform architecture set to 'x86'
+00:00:00.061864 DCon01   Loading settings file "/home/densentrated/VirtualBox VMs/Ubuntu-Hubstaff/Ubuntu-Hubstaff.vbox" with version "1.19-linux"
+00:00:00.063354 DCon01   Platform architecture set to 'x86'
+00:00:00.064440 DCon01   Platform architecture set to 'x86'
+00:00:00.064922 DCon01   Loading settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:00:00.065007 DCon01   Platform architecture set to 'x86'
+00:00:00.065882 DCon01   VirtualBox: object created
+00:00:00.718681 DCon04   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:00.854838 DCon04   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:00:01.107665 DCon04   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.109889 DCon04   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:00:01.967481 DCon04   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.982829 DCon04   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:00:03.251349 DCon05   Launched VM: 3422555920 pid: 1085540 (0x109064) frontend: GUI/Qt name: Parrot OS 6.4 MATE Security Edition
+00:00:03.263104 DCon01   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.277392 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:00:03.536309 DCon06   Platform architecture set to 'x86'
+00:00:03.558573 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:03.571974 DCon08   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:00:03.930168 DCon08   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:03.990128 DCon09   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.008465 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+00:00:04.020953 DCon03   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.146218 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:04.147484 DCon03   HostDnsMonitorProxy::GetDomainName: neu.edu
+00:00:04.147579 DCon03   HostDnsMonitorProxy::GetNameServers:
+00:00:04.147585 DCon03     name server 1: 155.33.2.1
+00:00:04.147588 DCon03     name server 2: 155.33.2.2
+00:00:04.147684 DCon03   HostDnsMonitorProxy::GetSearchStrings:
+00:00:04.147687 DCon03     search string 1: neu.edu
+00:00:04.377541 DCon09   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:00:04.385714 DCon09   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:00:04.394672 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.407250 DCon03   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+00:00:09.928417 DCon01   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:00:09.930804 DCon01   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:00:09.957876 DCon03   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:09.976538 DCon03   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:09.995136 DCon15   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:10:28.962962 DCon03   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:10:28.969160 DCon03   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:10:28.986416 DCon16   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:10:28.999453 DCon16   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:15:15.729630 DCon21   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:15:15.736537 DCon21   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:15:15.754389 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+00:15:17.799868 DCon15   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:15:17.825202 DCon02   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:15:17.842421 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saving)}, preserve=false aResultDetail=0
+00:15:29.844370 DCon21   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:15:29.846916 DCon21   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:15:29.850452 DCon02   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:15:29.857507 DCon11   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:15:29.867883 DCon02   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:15:29.870331 DCon02   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:15:29.879973 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:15:30.039963 SaveState Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:15:30.045899 SaveState Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:15:30.049653 DCon02   ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:15:30.055678 DCon17   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:15:30.085015 DCon17   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:15:30.861562 DCon20   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:15:30.875130 DCon20   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:15:44.819859 DCon21   Platform architecture set to 'x86'
+00:15:44.823372 DCon20   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:15:44.844590 DCon20   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:15:44.857125 DCon20   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:15:45.024441 DCon20   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:15:45.037424 DCon20   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:17:31.256013 DCon20   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:17:39.012891 DCon27   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:17:39.016144 DCon27   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:17:39.019758 DCon27   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:17:39.022107 DCon27   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:17:40.583145 DCon20   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:17:40.589940 DCon20   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:20:55.762771 DCon30   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:20:55.778862 DCon30   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:20:56.618634 DCon30   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:20:56.626845 DCon30   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:21:02.433433 DCon27   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:02.436692 DCon27   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:21:08.713610 DCon28   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:21:08.848287 DCon33   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:21:08.957991 DCon32   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:21:09.066891 DCon32   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:09.082386 DCon32   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:21:11.744813 DCon30   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:21:11.762177 DCon30   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:21:16.398301 DCon27   Platform architecture set to 'x86'
+00:21:16.402407 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:21:16.430051 DCon33   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:21:16.458390 DCon33   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:21:16.579627 DCon30   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:21:16.592758 DCon30   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:21:24.641470 DCon32   Platform architecture set to 'x86'
+00:21:24.766487 DCon32   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:21:24.781981 DCon32   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:21:24.850507 DCon30   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:21:24.873672 DCon30   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:21:30.497750 DCon32   Launched VM: 3087091568 pid: 1141517 (0x116b0d) frontend: GUI/Qt name: Parrot OS 6.4 MATE Security Edition
+00:21:30.510442 DCon33   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:21:30.530903 DCon33   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:21:30.858314 DCon35   Platform architecture set to 'x86'
+00:21:30.878644 DCon37   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:21:30.898916 DCon35   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:21:31.612998 DCon37   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:21:31.722540 DCon39   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:21:31.725841 DCon32   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:21:31.759972 DCon39   NetworkServiceRunning: started 'VBoxNetDHCP', pid 00116b56
+00:21:31.760806 DCon39   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+00:21:31.806564 DCon39   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:21:31.894385 DCon37   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:21:31.895684 DCon37   HostDnsMonitorProxy::GetDomainName: neu.edu
+00:21:31.895791 DCon37   HostDnsMonitorProxy::GetNameServers:
+00:21:31.895797 DCon37     name server 1: 155.33.2.1
+00:21:31.895800 DCon37     name server 2: 155.33.2.2
+00:21:31.895892 DCon37   HostDnsMonitorProxy::GetSearchStrings:
+00:21:31.895895 DCon37     search string 1: neu.edu
+00:21:32.168449 DCon39   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:21:32.174830 DCon39   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:21:32.183169 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:21:32.195342 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+00:21:37.533584 DCon36   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:21:37.540117 DCon36   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:21:37.554710 DCon38   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:21:37.583912 DCon34   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:21:37.600672 DCon30   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:22:33.761215 DCon40   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:22:33.766944 DCon40   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:22:33.786185 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+00:22:35.926045 DCon41   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:22:35.944380 DCon41   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:22:35.960514 DCon41   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saving)}, preserve=false aResultDetail=0
+00:22:47.780448 DCon34   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:22:47.783071 DCon34   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:22:47.785929 DCon27   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:22:47.792814 DCon27   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:22:47.800870 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:22:47.803609 DCon27   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:22:47.812527 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:22:47.967171 SaveState Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:22:47.973861 SaveState Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:22:47.983115 DCon42   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:22:48.003744 DCon42   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:22:49.291851 DCon32   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:22:49.304079 DCon32   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:23:30.525532 DCon45   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:23:30.606807 DCon46   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:23:30.719279 DCon46   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:23:30.975675 DCon46   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:23:30.991053 DCon46   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:23:31.795788 DCon46   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:23:31.801976 DCon46   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:24:13.813660 DCon48   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:24:14.001526 DCon48   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:24:14.115208 DCon48   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:24:14.267352 DCon48   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:14.283121 DCon48   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:24:14.866014 DCon48   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:14.872593 DCon48   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:24:37.246300 DCon30   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:24:37.699540 DCon30   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:24:37.791174 DCon30   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:24:37.966438 DCon30   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:38.014299 DCon30   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:24:41.695986 ExtPackInst ExtPack: Executing '/usr/lib/virtualbox/VBoxExtPackHelperApp' 'install' '--base-dir' '/usr/lib/virtualbox/ExtensionPacks' '--cert-dir' '/usr/share/virtualbox/ExtPackCertificates' '--name' 'Oracle VM VirtualBox Extension Pack' '--tarball' '/home/densentrated/Downloads/Oracle_VM_VirtualBox_Extension_Pack-7.0.6a-155176.vbox-extpack' '--sha-256' '292961aa8723b54f96f89f6d8abf7d8e29259d94b7de831dbffb9ae15d346434'
+00:24:41.753357 ExtPackInst ExtPack: enmReason=1 iStatus=127 stderr='Error creating textual authentication agent: Error opening current controlling terminal for the process (`/dev/tty'): No such device or address
+00:24:41.753364 ExtPackInst '
+00:24:41.753427 ExtPackInst ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={The installer failed with exit code 127: Error creating textual authentication agent: Error opening current controlling terminal for the process (`/dev/tty'): No such device or address}, preserve=false aResultDetail=0
+00:24:56.771722 DCon48   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:56.786855 DCon48   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:24:57.086786 DCon48   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:57.093842 DCon48   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:24:57.682989 DCon48   Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:24:57.689520 DCon48   Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+00:25:05.713772 DCon54   Platform architecture set to 'x86'
+00:25:05.719759 DCon30   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:05.727232 DCon30   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:05.729728 DCon50   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:05.748670 DCon50   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:05.751932 DCon56   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:05.759462 DCon55   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:25:05.780831 DCon50   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:25:06.047940 DCon51   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:06.050374 DCon55   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:06.067294 DCon55   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:06.071317 DCon51   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:06.082034 DCon56   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:06.104838 DCon56   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:28.878206 DCon48   Platform architecture set to 'x86'
+00:25:28.889637 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:28.892092 DCon60   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:28.907056 DCon60   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:28.911852 DCon48   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:29.159538 DCon48   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:25:29.174637 DCon48   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:25:29.184693 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:29.187274 DCon52   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:29.196163 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:29.201186 DCon48   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:29.202218 DCon48   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:29.215479 DCon59   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:30.671145 DCon59   Launched VM: 3288359552 pid: 1151135 (0x11909f) frontend: GUI/Qt name: Parrot OS 6.4 MATE Security Edition
+00:25:30.682400 DCon52   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:30.689500 DCon52   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:30.703032 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:30.704230 DCon52   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:30.711204 DCon48   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:30.726941 DCon48   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:31.040921 DCon27   Platform architecture set to 'x86'
+00:25:31.059984 DCon58   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:31.061268 DCon60   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:31.062678 DCon60   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:31.079287 DCon63   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:31.084870 DCon61   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:31.086911 DCon63   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+00:25:31.556909 DCon27   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:25:31.623691 DCon64   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:25:31.624689 DCon60   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:31.626286 DCon64   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:31.630270 DCon64   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:31.643976 DCon64   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+00:25:31.644770 DCon60   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+00:25:31.650354 DCon64   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Restoring)}, preserve=false aResultDetail=0
+00:25:31.661390 DCon64   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:25:31.745654 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:25:31.746948 DCon27   HostDnsMonitorProxy::GetDomainName: neu.edu
+00:25:31.747066 DCon27   HostDnsMonitorProxy::GetNameServers:
+00:25:31.747070 DCon27     name server 1: 155.33.2.1
+00:25:31.747074 DCon27     name server 2: 155.33.2.2
+00:25:31.747180 DCon27   HostDnsMonitorProxy::GetSearchStrings:
+00:25:31.747183 DCon27     search string 1: neu.edu
+00:25:37.316389 DCon27   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:25:37.318723 DCon27   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:25:37.341234 DCon62   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:25:37.363488 DCon59   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:37.370007 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:37.370816 DCon27   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:25:37.384276 DCon46   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:25:37.389613 DCon27   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:25:37.391643 DCon62   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:26:16.569664 DCon46   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:26:16.576253 DCon46   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:26:16.594568 DCon48   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:26:16.596533 DCon58   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:26:16.597463 DCon72   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:26:16.615725 DCon48   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:26:16.617727 DCon66   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:26:16.620083 DCon48   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:26:39.526119 DCon80   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:26:39.547069 DCon80   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:26:39.548385 DCon80   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:26:39.550646 DCon80   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:26:39.553040 DCon84   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:26:39.554386 DCon85   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:26:39.563410 DCon85   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:26:39.564892 DCon85   ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:26:39.579379 DCon64   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:26:39.583428 DCon75   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:26:39.592362 DCon64   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:26:41.115910 DCon75   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:26:41.120243 DCon75   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:26:41.120468 DCon83   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:27:20.994470 DCon74   Launched VM: 3671434528 pid: 1155124 (0x11a034) frontend: GUI/Qt name: Parrot OS 6.4 MATE Security Edition
+00:27:21.065577 DCon58   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:27:21.069275 DCon58   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:27:21.073174 DCon58   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:27:21.417030 DCon93   Platform architecture set to 'x86'
+00:27:21.442164 DCon93   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:27:21.445896 DCon70   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:27:21.447255 DCon70   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:27:22.136360 DCon90   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:27:22.189928 DCon90   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:27:22.265348 DCon90   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:27:22.275140 DCon93   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:27:22.289558 DCon93   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:27:22.299521 DCon58   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:27:22.323184 DCon93   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:27:22.428029 DCon74   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:27:22.429446 DCon74   HostDnsMonitorProxy::GetDomainName: neu.edu
+00:27:22.429548 DCon74   HostDnsMonitorProxy::GetNameServers:
+00:27:22.429552 DCon74     name server 1: 155.33.2.1
+00:27:22.429557 DCon74     name server 2: 155.33.2.2
+00:27:22.429655 DCon74   HostDnsMonitorProxy::GetSearchStrings:
+00:27:22.429660 DCon74     search string 1: neu.edu
+00:27:22.468304 DCon94   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:27:22.498166 DCon74   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:22.501173 DCon74   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:22.503912 DCon74   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:22.669259 DCon74   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:27:22.672313 DCon74   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:27:22.691973 DCon90   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:22.692081 DCon90   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:22.693892 DCon70   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:23.177017 DCon70   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:27:23.183358 DCon70   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:27:23.214859 DCon76   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:23.221497 DCon76   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:23.223733 DCon76   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:32.268720 DCon77   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:27:32.283508 DCon77   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:27:32.305170 DCon77   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:32.321561 DCon92   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:32.324986 DCon100  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:28:44.269854 DCon98   Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+00:28:44.272045 DCon98   Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+00:28:44.302829 DCon98   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:28:44.311200 DCon89   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:28:44.312729 DCon89   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:53:05.178850 DCon305  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:53:05.189902 DCon306  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+01:53:05.191315 DCon306  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+01:53:07.531073 DCon306  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:53:07.550421 DCon308  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saving)}, preserve=false aResultDetail=0
+01:53:07.555660 DCon308  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saving)}, preserve=false aResultDetail=0
+01:53:15.767374 DCon305  Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+01:53:15.771631 DCon305  Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+01:53:15.775328 DCon270  ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:53:15.775795 DCon270  ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:53:15.783949 DCon270  ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+01:53:15.795766 DCon301  ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:53:15.796240 DCon301  ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:53:15.804368 DCon296  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+01:53:15.804871 DCon301  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+01:53:15.906833 SaveState Saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox" with version "1.19-linux"
+01:53:15.909045 SaveState Finished saving settings file "/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot OS 6.4 MATE Security Edition.vbox"
+01:53:15.914513 DCon270  ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+01:53:15.945962 DCon270  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+01:53:15.953438 DCon306  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+01:53:17.224452 DCon297  Saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+01:53:17.228135 DCon297  Finished saving settings file "/home/densentrated/.config/VirtualBox/VirtualBox.xml"
+01:53:17.293824 DCon292  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+01:53:24.289277 main     VirtualBox: object deletion starts
+01:53:24.289314 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/densentrated/VirtualBox VMs/Ubuntu-Hubstaff/Ubuntu-Hubstaff.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:53:24.289437 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/densentrated/VirtualBox VMs/Parrot OS 6.4 MATE Security Edition/Parrot-security-mate-6.4_amd64-disk001.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:53:24.289504 main     NetworkServiceRunning: killing VBoxNetDHCP, pid 00116b56...
+01:53:24.306358 main     HostDnsMonitor: shutting down ...
+01:53:24.307318 main     HostDnsMonitor: shut down
+01:53:24.318326 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:53:24.318410 main     VirtualBox: object deleted

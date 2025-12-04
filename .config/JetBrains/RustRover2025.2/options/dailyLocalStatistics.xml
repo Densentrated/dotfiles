@@ -1,0 +1,86 @@
+<application>
+  <component name="DailyLocalStatistics">
+    <dateToStats>
+      <entry key="2025-10-20-11">
+        <DateState>
+          <values>
+            <entry key="file_language">
+              <MetricValue>
+                <option name="count" value="65" />
+                <distribution>
+                  <entry key="Language: Rust" value="65" />
+                </distribution>
+              </MetricValue>
+            </entry>
+            <entry key="finish_type">
+              <MetricValue>
+                <option name="count" value="65" />
+                <distribution>
+                  <entry key="EMPTY" value="36" />
+                  <entry key="INVALIDATED" value="29" />
+                </distribution>
+              </MetricValue>
+            </entry>
+            <entry key="was_shown">
+              <MetricValue>
+                <option name="count" value="65" />
+                <distribution>
+                  <entry key="false" value="65" />
+                </distribution>
+              </MetricValue>
+            </entry>
+          </values>
+        </DateState>
+      </entry>
+      <entry key="2025-10-20-8">
+        <DateState>
+          <values>
+            <entry key="file_language">
+              <MetricValue>
+                <option name="count" value="213" />
+                <distribution>
+                  <entry key="Language: Rust" value="213" />
+                </distribution>
+              </MetricValue>
+            </entry>
+            <entry key="finish_type">
+              <MetricValue>
+                <option name="count" value="213" />
+                <distribution>
+                  <entry key="BACKSPACE_PRESSED" value="3" />
+                  <entry key="CARET_CHANGED" value="2" />
+                  <entry key="EMPTY" value="119" />
+                  <entry key="INVALIDATED" value="84" />
+                  <entry key="MOUSE_PRESSED" value="1" />
+                  <entry key="SELECTED" value="3" />
+                  <entry key="TYPED" value="1" />
+                </distribution>
+              </MetricValue>
+            </entry>
+            <entry key="total_inserted_length">
+              <MetricValue>
+                <option name="count" value="13" />
+                <option name="sum" value="92.0" />
+              </MetricValue>
+            </entry>
+            <entry key="total_inserted_lines">
+              <MetricValue>
+                <option name="count" value="13" />
+                <option name="sum" value="3.0" />
+              </MetricValue>
+            </entry>
+            <entry key="was_shown">
+              <MetricValue>
+                <option name="count" value="213" />
+                <distribution>
+                  <entry key="false" value="200" />
+                  <entry key="true" value="13" />
+                </distribution>
+              </MetricValue>
+            </entry>
+          </values>
+        </DateState>
+      </entry>
+    </dateToStats>
+  </component>
+</application>
