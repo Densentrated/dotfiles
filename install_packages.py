@@ -88,6 +88,9 @@ def install_packages():
         "sddm",
         "htop",
         "hyprpaper",
+        "cava",
+        "cmatrix",
+        "cbonsai",
     ]
 
     # Packages to install with paru (AUR packages)
@@ -98,6 +101,9 @@ def install_packages():
         "quickshell-git",
         "hyprland",  # includes hyprctl
         "spicetify-cli",
+        "pipes.sh",
+        "donut.c",
+        "termdown",
     ]
 
     # Install pacman packages
@@ -327,6 +333,12 @@ def main():
     print("   • hyprland (includes hyprctl)")
     print("   • hyprpaper")
     print("   • spicetify")
+    print("   • cava (audio visualizer)")
+    print("   • cmatrix (matrix rain)")
+    print("   • cbonsai (bonsai tree)")
+    print("   • pipes.sh (animated pipes)")
+    print("   • donut.c (spinning donut)")
+    print("   • termdown (terminal countdown timer)")
     print(
         "\n⚠️  Note: You may need to log out and back in for shell changes to take effect."
     )
