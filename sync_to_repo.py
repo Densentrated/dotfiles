@@ -34,6 +34,7 @@ def should_exclude(item_name):
         "deploy_dotfiles.py",
         "sync_to_repo.py",  # Don't sync this script itself
         "install_packages.py",
+        "Pictures",  # Don't sync Pictures directory
     ]
 
     return item_name in exclude_list
@@ -316,6 +317,7 @@ def print_help():
     print("  • pic1.png, pic2.png, pic3.png")
     print("  • LICENSE")
     print("  • README.md")
+    print("  • Pictures directory")
     print("  • *.py scripts")
     print()
     print("Examples:")
