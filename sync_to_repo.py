@@ -86,19 +86,25 @@ def files_are_different(source_path, target_path):
 
 def sync_item(source_path, target_path, dry_run=False):
     """Sync a single file or directory from home to repo"""
-    print(f"🔄 Syncing {source_path.name}...")
+    # Check if this is a .config subdirectory
+    if target_path.parent.name == ".config":
+        display_name = f".config/{source_path.name}"
+    else:
+        display_name = source_path.name
+
+    print(f"🔄 Syncing {display_name}...")
 
     if dry_run:
         if files_are_different(source_path, target_path):
             print(f"   Would update: {source_path} -> {target_path}")
         else:
-            print(f"   No changes needed for {source_path.name}")
+            print(f"   No changes needed for {display_name}")
         return True
 
     try:
         # Check if files are different
         if not files_are_different(source_path, target_path):
-            print(f"✅ {source_path.name} is already up to date")
+            print(f"✅ {display_name} is already up to date")
             return True
 
         # Create backup if target exists
@@ -118,11 +124,11 @@ def sync_item(source_path, target_path, dry_run=False):
         else:
             shutil.copy2(source_path, target_path)
 
-        print(f"✅ Successfully synced {source_path.name}")
+        print(f"✅ Successfully synced {display_name}")
         return True
 
     except Exception as e:
-        print(f"❌ Failed to sync {source_path.name}: {e}")
+        print(f"❌ Failed to sync {display_name}: {e}")
         return False
 
 
@@ -135,11 +141,27 @@ def find_trackable_items(dotfiles_dir, home_dir):
         if should_exclude(item.name):
             continue
 
-        home_equivalent = home_dir / item.name
-        if home_equivalent.exists():
-            trackable_items.append((home_equivalent, item))
+        # Handle .config directory specially - sync subdirectories individually
+        if item.name == ".config" and item.is_dir():
+            home_config_dir = home_dir / ".config"
+            if home_config_dir.exists():
+                for config_subdir in item.iterdir():
+                    home_config_subdir = home_config_dir / config_subdir.name
+                    if home_config_subdir.exists():
+                        trackable_items.append((home_config_subdir, config_subdir))
+                    else:
+                        print(
+                            f"⚠️  .config/{config_subdir.name} exists in repo but not in home directory"
+                        )
+            else:
+                print("⚠️  .config directory exists in repo but not in home directory")
         else:
-            print(f"⚠️  {item.name} exists in repo but not in home directory")
+            # Handle regular items
+            home_equivalent = home_dir / item.name
+            if home_equivalent.exists():
+                trackable_items.append((home_equivalent, item))
+            else:
+                print(f"⚠️  {item.name} exists in repo but not in home directory")
 
     return trackable_items
 
@@ -193,11 +215,17 @@ def main():
 
     for home_path, repo_path in trackable_items:
         item_type = "📁" if home_path.is_dir() else "📄"
+        # Check if this is a .config subdirectory
+        if repo_path.parent.name == ".config":
+            display_name = f".config/{home_path.name}"
+        else:
+            display_name = home_path.name
+
         if files_are_different(home_path, repo_path):
-            print(f"   {item_type} {home_path.name} (DIFFERENT)")
+            print(f"   {item_type} {display_name} (DIFFERENT)")
             differences_found = True
         else:
-            print(f"   {item_type} {home_path.name} (up to date)")
+            print(f"   {item_type} {display_name} (up to date)")
 
     if check_only:
         if differences_found:
