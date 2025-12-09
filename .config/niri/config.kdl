@@ -173,7 +173,7 @@ layout {
 spawn-at-startup "hyprpaper"
 spawn-at-startup "quickshell"
 spawn-at-startup "swaync"
-spawn-at-startup "sh" "-c" " /home/dense/.config/niri/scripts/spotify-notifier.sh"
+spawn-at-startup "sh" "-c" "/home/dense/.config/niri/scripts/spotify-notifier.sh"
 spawn-at-startup "xwayland-satellite"
 
 environment {
