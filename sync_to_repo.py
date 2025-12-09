@@ -84,6 +84,22 @@ def files_are_different(source_path, target_path):
         return True
 
 
+def sync_directory_additive(source_dir, target_dir):
+    """Additively sync a directory - only add/update files, never delete"""
+    for item in source_dir.iterdir():
+        source_item = source_dir / item.name
+        target_item = target_dir / item.name
+
+        if source_item.is_dir():
+            # Create target directory if it doesn't exist
+            target_item.mkdir(exist_ok=True)
+            # Recursively sync subdirectory
+            sync_directory_additive(source_item, target_item)
+        else:
+            # Copy/update file
+            shutil.copy2(source_item, target_item)
+
+
 def sync_item(source_path, target_path, dry_run=False):
     """Sync a single file or directory from home to repo"""
     # Check if this is a .config subdirectory
@@ -111,18 +127,20 @@ def sync_item(source_path, target_path, dry_run=False):
         if not backup_existing(target_path):
             return False
 
-        # Remove existing target if it exists
-        if target_path.exists():
-            if target_path.is_dir():
-                shutil.rmtree(target_path)
-            else:
+        # Handle directories and files differently
+        if source_path.is_file():
+            # For files, simply replace
+            if target_path.exists():
                 target_path.unlink()
-
-        # Copy the item from home to repo
-        if source_path.is_dir():
-            shutil.copytree(source_path, target_path)
-        else:
             shutil.copy2(source_path, target_path)
+        else:
+            # For directories, use additive sync
+            if not target_path.exists():
+                # If target doesn't exist, create it and copy everything
+                shutil.copytree(source_path, target_path)
+            else:
+                # If target exists, additively sync (only add/update, never delete)
+                sync_directory_additive(source_path, target_path)
 
         print(f"✅ Successfully synced {display_name}")
         return True
