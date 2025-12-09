@@ -81,6 +81,7 @@ def install_packages():
         "fish",
         "zsh",
         "neofetch",
+        "fastfetch",
         "kitty",
         "wofi",
         "mako",
@@ -314,6 +315,7 @@ def main():
     print("   • fish")
     print("   • zsh (set as default shell)")
     print("   • neofetch")
+    print("   • fastfetch")
     print("   • starship")
     print("   • kitty")
     print("   • niri")

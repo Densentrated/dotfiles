@@ -32,7 +32,7 @@ abbr -a -g CHROME_EXECUTABLE "google-chrome-stable"
 abbr -a -g google-crhome "google-chrome-stable"
 set -g fish_greeting
 
-neofetch --ascii ~/.config/neofetch/yorha.txt --ascii_colors 1
+fastfetch
 fish_add_path /opt/matlab/bin
 
 # Add ~/.local/bin to PATH (ensures no duplicates are added)
