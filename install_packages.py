@@ -85,6 +85,7 @@ def install_packages():
         "kitty",
         "wofi",
         "mako",
+        "swaync",
         "sddm",
         "htop",
         "hyprpaper",
@@ -328,6 +329,7 @@ def main():
     print("   • quickshell")
     print("   • wofi")
     print("   • mako")
+    print("   • swaync")
     print("   • sddm")
     print("   • htop")
     print("   • hyprland (includes hyprctl)")

@@ -1,4 +1,10 @@
+* {
+    font-family: "FiraCode Nerd Font", monospace;
+}
+
 window {
+    margin: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     background: linear-gradient(
         45deg,
         rgba(56, 166, 199, 0.75),
@@ -8,14 +14,13 @@ window {
     overflow: hidden;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #input {
+    margin: 5px;
     border: none;
-    background-color: rgba(40, 40, 40, 0.2);
     color: aliceblue;
+    background-color: rgba(40, 40, 40, 0.2);
 }
 
 #input:focus {
@@ -24,7 +29,36 @@ window {
     box-shadow: none;
 }
 
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: aliceblue;
+}
+
+#entry {
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 #entry:selected {
-    background-color: rgba(100, 100, 255, 0.3);
+    background-color: rgba(100, 100, 100, 0.3);
     border-radius: 8px;
 }
