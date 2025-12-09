@@ -86,6 +86,7 @@ def install_packages():
         "mako",
         "sddm",
         "htop",
+        "hyprpaper",
     ]
 
     # Packages to install with paru (AUR packages)
@@ -94,6 +95,8 @@ def install_packages():
         "starship",
         "niri",
         "quickshell-git",
+        "hyprland",  # includes hyprctl
+        "spicetify-cli",
     ]
 
     # Install pacman packages
@@ -223,6 +226,12 @@ def install_personal_apps():
         "obsidian",
         "pass",
         "gnupg",  # gpg
+        "docker",
+        "docker-compose",
+        "podman",
+        "podman-compose",
+        "virtualbox",
+        "emacs",
     ]
 
     # Paru packages (AUR)
@@ -263,6 +272,10 @@ def install_personal_apps():
     print("   • Git Credential Manager")
     print("   • Pass (password manager)")
     print("   • GPG")
+    print("   • Docker & Docker Compose")
+    print("   • Podman & Podman Compose")
+    print("   • VirtualBox")
+    print("   • Emacs")
 
 
 def main():
@@ -307,9 +320,11 @@ def main():
     print("   • quickshell")
     print("   • wofi")
     print("   • mako")
-    print("   • spotify-notification")
     print("   • sddm")
     print("   • htop")
+    print("   • hyprland (includes hyprctl)")
+    print("   • hyprpaper")
+    print("   • spicetify")
     print(
         "\n⚠️  Note: You may need to log out and back in for shell changes to take effect."
     )
