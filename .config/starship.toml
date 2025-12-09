@@ -4,9 +4,11 @@
 add_newline = true
 command_timeout = 2000
 
-format = """$env_var$os$username$hostname$kubernetes$directory$git_branch$git_status$python
+format = """$env_var$os$username$hostname$kubernetes$directory$git_branch$git_status$python$fill$cmd_duration
 $character
 """
+
+right_format = ""
 
 [character]
 success_symbol = "╰⎯"
@@ -116,3 +118,11 @@ disabled = true
 
 [terraform]
 disabled = true
+
+[fill]
+symbol = " "
+
+[cmd_duration]
+min_time = 500
+format = '[$duration](bold yellow)'
+disabled = false

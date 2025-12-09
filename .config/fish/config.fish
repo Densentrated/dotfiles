@@ -30,6 +30,10 @@ abbr -a -g wlon 'rfkill unblock wlan'																		# Unblock wlan, start wif
 abbr -a -g ff 'firefox'
 abbr -a -g CHROME_EXECUTABLE "google-chrome-stable"
 abbr -a -g google-crhome "google-chrome-stable"
+abbr -a pipes 'pipes.sh -t 3 -f 75 -p 5 -r 2000'
+abbr -a termdown 'tput setaf 4; command termdown 45m --font big; tput sgr0'
+
+
 set -g fish_greeting
 
 fastfetch
