@@ -40,6 +40,11 @@
       "state": "enabled",
       "urgency": "Normal",
       "app-name": "Spotify Premium"
+    },
+    "Volume": {
+      "state": "enabled",
+      "urgency": "Normal",
+      "app-name": "Volume"
     }
   },
   "widgets": ["inhibitors", "title", "dnd", "notifications"],

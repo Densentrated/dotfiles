@@ -283,3 +283,10 @@ scrollbar slider {
 scrollbar slider:hover {
     background-color: rgba(255, 255, 255, 0.4);
 }
+
+/* Center positioning for Volume notifications only */
+.notification[app-name="Volume"] {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

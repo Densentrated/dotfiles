@@ -253,11 +253,10 @@ window-rule {
 }
 
 window-rule {
-    match title="user/bin/gpg2"
-
+    match title="usr/bin/gpg2"
     open-floating true
-    default-column-width { fixed 300; }
-    default-window-height { fixed 600; }
+    default-column-width { fixed 200; }
+    default-window-height { fixed 300; }
 }
 
 binds {
@@ -273,11 +272,15 @@ binds {
     // Note: the entire command goes as a single argument in the end.
     // Mod+T { spawn "bash" "-c" "notify-send hello && exec kitty"; }
 
+    //brightness key mappings
+    XF86MonBrightnessUp {spawn "brightnessctl" "set" "+5%" ;}
+    XF86MonBrightnessDown {spawn "brightnessctl" "set" "5%-" ;}
+
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
-    XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
-    XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
-    XF86AudioMute        allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
+    XF86AudioRaiseVolume allow-when-locked=true { spawn "sh" "-c" "~/.config/niri/scripts/volume-control.sh up"; }
+    XF86AudioLowerVolume allow-when-locked=true { spawn "sh" "-c" "~/.config/niri/scripts/volume-control.sh down"; }
+    XF86AudioMute        allow-when-locked=true { spawn "sh" "-c" "~/.config/niri/scripts/volume-control.sh mute"; }
     XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
 
     // Open/close the Overview: a zoomed-out view of workspaces and windows.
