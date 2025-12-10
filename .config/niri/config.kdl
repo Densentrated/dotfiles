@@ -252,6 +252,14 @@ window-rule {
     open-floating true
 }
 
+window-rule {
+    match title="user/bin/gpg2"
+
+    open-floating true
+    default-column-width { fixed 300; }
+    default-window-height { fixed 600; }
+}
+
 binds {
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
