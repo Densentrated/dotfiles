@@ -284,7 +284,7 @@ This script:
 
 ### Common Bindings (Niri)
 * **Open terminal** - `Super + Enter`
-* **Open launcher** - `Super + D`
+* **Open launcher** - `Super + R`
 * **Close window** - `Super + Q`
 * **Switch workspace** - `Super + 1-9`
 * **Move window to workspace** - `Super + Shift + 1-9`
