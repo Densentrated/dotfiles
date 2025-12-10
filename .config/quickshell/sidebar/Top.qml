@@ -9,6 +9,7 @@ import QtQuick.Layouts
 ColumnLayout {
     id: sidebarTop
     anchors.top: parent.top
+    property var parentWindow
 
     // overview toggle button
     Rectangle {
@@ -28,13 +29,13 @@ ColumnLayout {
             anchors.centerIn: parent
             color: "white"
         }
-        
+
         MouseArea {
         anchors.fill: parent
         hoverEnabled: true
         onEntered: hoverIcon.color = "#e069d1"
         onExited: hoverIcon.color = "white"
-        
+
             Process {
                 id: overviewProcess
                 command: ["bash", "-c", "niri msg action toggle-overview"]
@@ -52,7 +53,7 @@ ColumnLayout {
         border.width: 0
         implicitWidth: 46
         implicitHeight: 220
-        
+
         // workspaces code
 
         ColumnLayout {
@@ -62,7 +63,7 @@ ColumnLayout {
             anchors.topMargin: 10
 
             property var workspaces: []
-            
+
             Process {
                 id: workspaceProcess
                 running: true
@@ -75,7 +76,7 @@ ColumnLayout {
                         for (let i = 1; i < lines.length; i++) {
                             let line = lines[i].trim();
                             let active = line.startsWith("*");
-                            
+
                             if (active) {
                                 // Active workspace: "* 4" format
                                 let num = parseInt(line.substring(1).trim());
@@ -108,8 +109,8 @@ ColumnLayout {
                     color: "transparent"
                     border.color: "transparent"
                     border.width: 0
-                    
-                    
+
+
                     Text {
                         anchors.centerIn: parent
                         color: modelData.active ? "#e069d1" : "white"
@@ -119,13 +120,14 @@ ColumnLayout {
                     }
                 }
             }
-            
+
             SysTray {
                 // Pass SystemTray.items directly to the component
                 trayItems: SystemTray.items
+                parentWindow: sidebarTop.parentWindow
                 Layout.topMargin: 10
                 }
-            
+
             // Spacer to push everything to top of container
             Item {
                 Layout.fillHeight: true
