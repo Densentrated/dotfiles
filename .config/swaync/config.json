@@ -1,0 +1,77 @@
+{
+  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "overlay",
+  "control-center-layer": "overlay",
+  "layer-shell": true,
+  "cssPriority": "application",
+  "control-center-margin-top": 10,
+  "control-center-margin-bottom": 10,
+  "control-center-margin-right": 10,
+  "control-center-margin-left": 0,
+  "notification-2fa-action": true,
+  "notification-inline-replies": false,
+  "notification-icon-size": 128,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
+  "image-visibility": "when-available",
+  "timeout": 30,
+  "timeout-low": 30,
+  "timeout-critical": 60,
+  "ignore-timeout": true,
+  "fit-to-screen": true,
+  "control-center-width": 512,
+  "control-center-height": 512,
+  "notification-window-width": 512,
+  "keyboard-shortcuts": true,
+  "transition-time": 200,
+  "hide-on-clear": false,
+  "hide-on-action": true,
+  "script-fail-notify": true,
+  "scripts": {},
+  "notification-visibility": {
+    "Spotify": {
+      "state": "enabled",
+      "urgency": "Normal",
+      "app-name": "Spotify"
+    },
+    "Spotify Premium": {
+      "state": "enabled",
+      "urgency": "Normal",
+      "app-name": "Spotify Premium"
+    },
+    "Volume": {
+      "state": "enabled",
+      "urgency": "Normal",
+      "app-name": "Volume"
+    }
+  },
+  "widgets": ["inhibitors", "title", "dnd", "notifications"],
+  "widget-config": {
+    "inhibitors": {
+      "text": "Inhibitors",
+      "button-text": "Clear All",
+      "clear-all-button": true
+    },
+    "title": {
+      "text": "Notifications",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+    "notifications": {
+      "clear-all-button": true
+    },
+    "label": {
+      "max-lines": 5,
+      "text": "Label Text"
+    },
+    "mpris": {
+      "image-size": 96,
+      "image-radius": 8
+    }
+  }
+}

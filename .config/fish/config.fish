@@ -2,6 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     starship init fish | source
 end
+# Removed sourcing of non-existent /home/dense/.cargo/env.fish
 
 # User abbreviations
 abbr -a -g ytmp3 'youtube-dl --extract-audio --audio-format mp3'				# Convert/Download YT videos as mp3
@@ -26,12 +27,17 @@ abbr -a -g ipe 'curl ifconfig.co'																				# Get external IP address
 abbr -a -g ips 'ip link show'																					# Get network interfaces information
 abbr -a -g wloff 'rfkill block wlan'																			# Block wlan, killing wifi connection
 abbr -a -g wlon 'rfkill unblock wlan'																		# Unblock wlan, start wifi connection
-abbr -a -g ff 'firefox'		
+abbr -a -g ff 'firefox'
 abbr -a -g CHROME_EXECUTABLE "google-chrome-stable"
 abbr -a -g google-crhome "google-chrome-stable"
+abbr -a pipes 'pipes.sh -t 3 -f 75 -p 5 -r 2000'
+abbr -a termdown 'tput setaf 4; command termdown 45m --font big; tput sgr0'
+abbr -a cmatrix 'cmatrix -B -C magenta'
+abbr -a bonsai 'cbonsai -l -k 213,21,219,33 -L 65 -M 6 -t .005 -i'
+
 set -g fish_greeting
 
-neofetch --ascii ~/.config/neofetch/yorha.txt --ascii_colors 1
+fastfetch
 fish_add_path /opt/matlab/bin
 
 # Add ~/.local/bin to PATH (ensures no duplicates are added)
@@ -41,7 +47,7 @@ fish_add_path $HOME/.local/bin
 set PATH $PATH /home/densentrated/.local/bin
 
 # Created for NERVENV on 2025-10-9
-alias nervenv="source /home/densentrated/Academic_Works/NER/ner-venv/bin/activate.fish"
+alias nervenv="source /home/dense/Projects/Academic/NER/ner-venv/bin/activate.fish"
 
 # thefuck alias
 thefuck --alias | source

@@ -50,7 +50,7 @@ output "eDP-1" {
 // Settings that influence how windows are positioned and sized.
 // Find more information on the wiki:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Layout
-layout {	
+layout {
     gaps 10
     center-focused-column "never"
 
@@ -137,7 +137,7 @@ layout {
         // draw the shadow correctly, without having to draw it behind the
         // window. These will also remove client-side shadows if the window
         // draws any.
-        // 
+        //
         // draw-behind-window true
 
         // You can change how shadows look. The values below are in logical
@@ -172,6 +172,8 @@ layout {
 // add startup programs here
 spawn-at-startup "hyprpaper"
 spawn-at-startup "quickshell"
+spawn-at-startup "swaync"
+spawn-at-startup "sh" "-c" "/home/dense/.config/niri/scripts/spotify-notifier.sh"
 spawn-at-startup "xwayland-satellite"
 
 environment {
@@ -250,6 +252,13 @@ window-rule {
     open-floating true
 }
 
+window-rule {
+    match title="usr/bin/gpg2"
+    open-floating true
+    default-column-width { fixed 200; }
+    default-window-height { fixed 300; }
+}
+
 binds {
     // shows a list of important hotkeys.
     Mod+Shift+Slash { show-hotkey-overlay; }
@@ -263,11 +272,15 @@ binds {
     // Note: the entire command goes as a single argument in the end.
     // Mod+T { spawn "bash" "-c" "notify-send hello && exec kitty"; }
 
+    //brightness key mappings
+    XF86MonBrightnessUp {spawn "brightnessctl" "set" "+5%" ;}
+    XF86MonBrightnessDown {spawn "brightnessctl" "set" "5%-" ;}
+
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
-    XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
-    XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
-    XF86AudioMute        allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
+    XF86AudioRaiseVolume allow-when-locked=true { spawn "sh" "-c" "~/.config/niri/scripts/volume-control.sh up"; }
+    XF86AudioLowerVolume allow-when-locked=true { spawn "sh" "-c" "~/.config/niri/scripts/volume-control.sh down"; }
+    XF86AudioMute        allow-when-locked=true { spawn "sh" "-c" "~/.config/niri/scripts/volume-control.sh mute"; }
     XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
 
     // Open/close the Overview: a zoomed-out view of workspaces and windows.
@@ -306,7 +319,7 @@ binds {
     Mod+End  { focus-column-last; }
     Mod+Ctrl+Home { move-column-to-first; }
     Mod+Ctrl+End  { move-column-to-last; }
-   
+
     // Alternatively, there are commands to move just a single window:
     // Mod+Shift+Ctrl+Left  { move-window-to-monitor-left; }
     // ...
@@ -479,7 +492,7 @@ binds {
     Mod+Shift+P {screenshot;}
     Mod+Ctrl+Shift+P {screenshot-screen;}
     Mod+Alt+Shift+P {screenshot-window;}
-    
+
     Mod+R {spawn "bash" "-c" "wofi --show drun";}
 
     Mod+Shift+Ctrl+Alt+Z {spawn "bash" "-c" "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+";}

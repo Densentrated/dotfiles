@@ -1,4 +1,6 @@
-import Quickshell 
+//@ pragma UseQApplication
+
+import Quickshell
 import "sidebar"
 
 Scope {

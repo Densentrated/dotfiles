@@ -1,2 +1,65 @@
-# Prerequisites
-/backup
+# Backup files created by sync_to_repo.py
+*.old
+*.old.*
+
+# Backup files created by deploy_dotfiles.py
+*.backup
+*.backup.*
+
+# Temporary files
+*~
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Editor backup and swap files
+*.swp
+*.swo
+*~
+.#*
+\#*#
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.sublime-*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# Cache directories
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Git files (in case of nested repos)
+.git/
+.gitmodules
+
+# SSH keys (safety measure)
+id_rsa
+id_ed25519
+*.pem
+*.key
+
+# Personal data that shouldn't be shared
+.env
+.env.local
+secrets.txt
+passwords.txt

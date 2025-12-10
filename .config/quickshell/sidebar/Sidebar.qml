@@ -3,10 +3,10 @@ import QtQuick
 
 PanelWindow {
     id: sidebarWindow
-    
+
     // Make popup accessible to children
     property alias powerMenuPopup: powerMenuPopup
-    
+
 // Anchor the panel to the left and stretch vertically
     anchors {
         bottom: true
@@ -16,13 +16,13 @@ PanelWindow {
 
     color: "transparent"
     margins {
-        left: 8 
+        left: 8
         top: 10
         bottom: 10
     }
     // Set a fixed width for the sidebar
     implicitWidth: 46
-   
+
    Rectangle {
        anchors.fill: parent
        gradient: Gradient {
@@ -32,16 +32,17 @@ PanelWindow {
        radius: 6
    }
 
-   Top {}
+   Top {
+       parentWindow: sidebarWindow
+   }
    Middle {}
    Bottom {
        id: bottomComponent
    }
-   
+
    // Power Menu Popup Window
    PowerMenuPopup {
        id: powerMenuPopup
        parentWindow: sidebarWindow
    }
 }
-

@@ -1,0 +1,292 @@
+/* SwayNC Style - Mimicking Mako Dark Blue Transparent Theme */
+
+* {
+    all: unset;
+    font-family: "Fira Code Nerd Font";
+    font-size: 18px;
+}
+
+/* Main notification window */
+.notification-window {
+    background: transparent;
+}
+
+/* Control center (notification center) */
+.control-center {
+    background-color: rgba(39, 137, 245, 0.64);
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.control-center-list {
+    background: transparent;
+}
+
+/* Individual notifications */
+.notification {
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 105, 180, 0.81),
+        rgba(39, 137, 245, 0.64)
+    );
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    padding: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Notification content */
+.notification-content {
+    background: transparent;
+    padding: 8px;
+    margin: 12px;
+    align-items: flex-start;
+}
+
+/* Summary (title) - bold white text */
+.summary {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+}
+
+/* Body text - white text */
+.body {
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 24px;
+}
+
+/* Close button */
+.close-button {
+    background: transparent;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin: 4px;
+}
+
+.close-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Icon styling - hidden by default for most apps */
+.notification-default-action .notification-content {
+    padding-left: 8px;
+}
+
+.image {
+    margin: 0 8px;
+}
+
+/* Hide icons by default */
+.notification .notification-content .image {
+    -gtk-icon-size: 0px;
+    min-width: 0px;
+    min-height: 0px;
+    margin: 0;
+}
+
+/* Show images with size - GTK will handle positioning */
+.notification-content .image {
+    -gtk-icon-size: 96px;
+    min-width: 128px;
+    min-height: 128px;
+    margin-right: 16px;
+    border-radius: 4px;
+}
+
+/* Urgency levels */
+.notification.low {
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 105, 180, 0.73),
+        rgba(39, 137, 245, 0.64)
+    );
+}
+
+.notification.normal {
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 105, 180, 0.81),
+        rgba(39, 137, 245, 0.64)
+    );
+}
+
+.notification.critical,
+.notification.high {
+    background: linear-gradient(
+        to bottom right,
+        rgba(255, 105, 180, 0.87),
+        rgba(39, 137, 245, 0.64)
+    );
+    border: 2px solid #ff4444;
+}
+
+/* Control center header */
+.control-center .control-center-list-placeholder {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+/* Widget styling */
+.widget-title {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 8px;
+}
+
+.widget-label {
+    color: #ffffff;
+}
+
+.widget-label > label {
+    color: #ffffff;
+}
+
+/* DND (Do Not Disturb) button */
+.widget-dnd {
+    background-color: rgba(0, 24, 51, 0.81);
+    border-radius: 8px;
+    margin: 8px;
+    padding: 8px;
+}
+
+.widget-dnd > switch {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    border: none;
+}
+
+.widget-dnd > switch:checked {
+    background-color: rgba(255, 68, 68, 0.5);
+}
+
+.widget-dnd > switch slider {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Clear all button */
+.widget-buttons-grid {
+    padding: 8px;
+    margin: 8px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+    background-color: rgba(0, 24, 51, 0.81);
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    margin: 4px;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Notification group headers */
+.notification-group {
+    margin: 0;
+    padding: 0;
+}
+
+.notification-group-headers {
+    background-color: rgba(0, 24, 51, 0.81);
+    border-radius: 8px;
+    margin: 4px 10px;
+    padding: 8px;
+}
+
+.notification-group-header {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.notification-group-collapse-button,
+.notification-group-close-all-button {
+    background: transparent;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.notification-group-collapse-button:hover,
+.notification-group-close-all-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Action buttons in notifications */
+.notification-action {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    padding: 6px 12px;
+    margin: 4px;
+}
+
+.notification-action:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Inline replies */
+.inline-reply {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    padding: 6px;
+    margin-top: 8px;
+}
+
+.inline-reply:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+    outline: none;
+}
+
+.inline-reply-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    padding: 6px 12px;
+    margin-left: 8px;
+}
+
+.inline-reply-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Scrollbar styling */
+scrollbar {
+    background: transparent;
+}
+
+scrollbar trough {
+    background: transparent;
+}
+
+scrollbar slider {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    min-width: 8px;
+}
+
+scrollbar slider:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Center positioning for Volume notifications only */
+.notification[app-name="Volume"] {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
