@@ -1,4 +1,4 @@
-#  Dense's Dotfiles 
+# Dense's Dotfiles
 
 ## About
 
@@ -20,7 +20,7 @@
 
 
 <!-- IMAGES -->
-## 🖼️ Gallery
+## Gallery
 ![gallery](pic1.png)
 ![gallery](pic2.png)
 ![gallery](pic3.png)
@@ -28,7 +28,7 @@
 
 
 <!-- FEATURES -->
-## 🚀 Features
+## Features
 * **Automated Installation** - Python scripts handle package installation and configuration deployment
 * **Dual Compositor Support** - Configured for both Niri and Hyprland window managers
 * **Modern Wayland Setup** - Full Wayland support with XWayland-Satellite for legacy apps
@@ -45,7 +45,7 @@
 <table align="center">
    <tr>
       <th align="center">
-         <sup>:warning: NOTE :warning:</sup>
+         <sup>NOTE</sup>
       </th>
    </tr>
    <tr>
@@ -59,7 +59,7 @@
 
 
 <!-- INSTALLATION -->
-## :blue_book: Installation
+## Installation
 
 ### Prerequisites
 - Fresh Arch Linux installation
@@ -129,7 +129,7 @@ sudo python3 deploy_dotfiles.py --force
 
 
 <!-- SYNC -->
-## 🔄 Syncing Configurations
+## Syncing Configurations
 
 After making changes to your dotfiles, sync them back to the repository:
 
@@ -150,7 +150,7 @@ This script:
 
 
 <!-- INCLUDED CONFIGS -->
-## 📁 Included Configurations
+## Included Configurations
 
 - **`.config/niri/`** - Niri window manager configuration
 - **`.config/hypr/`** - Hyprland window manager configuration
@@ -168,7 +168,7 @@ This script:
 
 
 <!-- PACKAGES -->
-## 📦 Installed Packages
+## Installed Packages
 
 ### Core System
 - **xwayland-satellite** - XWayland support for Niri
@@ -219,7 +219,7 @@ This script:
 
 
 <!-- ERRORS -->
-## :moyai: Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -277,7 +277,7 @@ This script:
 
 
 <!-- HOTKEYS -->
-## 💻 Default Keybindings
+## Default Keybindings
 
 > **Note:** Keybindings may vary based on your Niri/Hyprland configuration. 
 > Check `~/.config/niri/config.kdl` or `~/.config/hypr/hyprland.conf` for your specific setup.
@@ -299,7 +299,7 @@ This script:
 
 
 <!-- STRUCTURE -->
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 dotfiles/
@@ -325,7 +325,7 @@ dotfiles/
 
 
 <!-- CREDITS -->
-## 🙏 Credits & Inspiration
+## Credits & Inspiration
 
 This configuration was inspired by various dotfiles repositories and the awesome Linux customization community. Special thanks to:
 
@@ -336,4 +336,4 @@ This configuration was inspired by various dotfiles repositories and the awesome
 
 ---
 
-<p align="center">Made with :heart: on Arch Linux</p>
+<p align="center">Made with love on Arch Linux</p>
